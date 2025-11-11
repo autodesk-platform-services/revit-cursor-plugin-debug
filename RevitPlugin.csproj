@@ -23,9 +23,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
     <OutputPath>$(MSBuildProjectDirectory)\bin\Debug\</OutputPath>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
-    <PropertyGroup>
-      <AddinFile>$(MSBuildProjectDirectory)\RevitPlugin.addin</AddinFile>
-    </PropertyGroup>
+    <AddinFile>$(MSBuildProjectDirectory)\RevitPlugin.addin</AddinFile>
     <PreBuildEvent>powershell -NoProfile -ExecutionPolicy Bypass -File "$(MSBuildProjectDirectory)\UpdateAddinPath.ps1" -AddinFile "$(AddinFile)" -AssemblyPath "$(OutputPath)RevitPlugin.dll"</PreBuildEvent>
   </PropertyGroup>
   
