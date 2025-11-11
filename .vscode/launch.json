@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Attach to Revit (with picker)",
+            "type": "coreclr",
+            "request": "attach",
+            "justMyCode": true,
+            "requireExactSource": false,
+            "preLaunchTask": "build"
+        }
+    ],
+    "compounds": []
+}
