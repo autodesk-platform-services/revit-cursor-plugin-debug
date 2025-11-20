@@ -3,6 +3,10 @@
 A minimal .NET 8 class library template for developing Revit plugins with Design Automation API support and debugging capabilities in Visual Studio Code with Cursor.
 This template is designed for automation workflows and cloud-based Revit processing using Autodesk Platform Services.
 
+## Video
+
+https://www.youtube.com/watch?v=hnjMVlEDR_k
+
 ## Prerequisites
 
 - .NET 8.0 SDK or later
