@@ -1,4 +1,4 @@
-# Revit .NET Cursor Plugin Template
+# Revit .NET Plugin Template (Cursor)
 
 A minimal .NET 8 class library template for developing Revit plugins with Design Automation API support and debugging capabilities in Visual Studio Code with Cursor.
 This template is designed for automation workflows and cloud-based Revit processing using Autodesk Platform Services.
