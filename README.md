@@ -8,7 +8,7 @@ This template is designed for automation workflows and cloud-based Revit process
 - .NET 8.0 SDK or later
 - Revit 2025 or later
 - Visual Studio Code with C# extension or Cursor IDE
-- (Optional) Design Automation Bridge for local testing
+- Design Automation Bridge for local testing
 
 ## Quick Setup
 
